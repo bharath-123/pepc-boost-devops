@@ -1,0 +1,8 @@
+[Unit]
+Description=pepc-boost-relay-website
+
+[Service]
+ExecStart=/home/ubuntu/pepc-boost-relay/mev-boost-relay website --network sepolia --db postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable --beacon-uris http://172.31.32.137:5052
+
+[Install]
+WantedBy=multi-user.target 
