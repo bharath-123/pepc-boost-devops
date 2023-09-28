@@ -3,7 +3,7 @@ Description=pepc-boost-relay-housekeeper
 
 [Service]
 Environment=BEACON_URIS=http://172.31.32.137:5052
-ExecStart=/home/ubuntu/pepc-boost-relay/mev-boost-relay housekeeper --network sepolia --db postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable
+ExecStart=/home/ubuntu/pepc-boost-relay/mev-boost-relay housekeeper --network goerli --db postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable
 
 [Install]
 WantedBy=multi-user.target 
