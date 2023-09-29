@@ -1,0 +1,8 @@
+[Unit]
+Description=tob-spammer
+
+[Service]
+ExecStart=/home/ubuntu/pepc-boost-tester/tob-spammer
+
+[Install]
+WantedBy=multi-user.target 
