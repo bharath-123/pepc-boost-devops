@@ -15,6 +15,7 @@ TimeoutStopSec=90
 Restart=on-failure
 RestartSec=10s
 ExecStart=/home/ubuntu/pepc-boost-builder/build/bin/geth \
+    --goerli \
     --syncmode=snap \
     --datadir /var/lib/goethereum \
     --metrics \
