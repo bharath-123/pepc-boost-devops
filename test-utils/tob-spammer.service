@@ -2,7 +2,7 @@
 Description=tob-spammer
 
 [Service]
-ExecStart=/home/ubuntu/pepc-boost-tester/tob-spammer
+ExecStart=/home/ubuntu/pepc-boost-tester/pepc-tester
 
 [Install]
 WantedBy=multi-user.target 
