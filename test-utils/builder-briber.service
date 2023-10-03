@@ -1,0 +1,8 @@
+[Unit]
+Description=builder-briber
+
+[Service]
+ExecStart=/home/ubuntu/pepc-boost-tester/pepc-tester
+
+[Install]
+WantedBy=multi-user.target 
