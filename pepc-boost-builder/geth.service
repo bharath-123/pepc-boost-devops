@@ -7,7 +7,7 @@ After=network-online.target
 User=root
 Group=root
 Environment=HOME=/home/ubuntu
-Environment=BUILDER_TX_SIGNING_KEY=cc877501b98c7171da436b1f1b6081941495795af765b5341e32558acd34e722
+Environment=BUILDER_TX_SIGNING_KEY=<Builder fee recipient key>
 Type=simple
 KillMode=mixed
 KillSignal=SIGINT
